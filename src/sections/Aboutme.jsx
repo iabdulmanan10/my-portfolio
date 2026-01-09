@@ -22,7 +22,7 @@ export default function About() {
             <p className="text-[#12F7D6] font-bold text-lg sm:text-2xl mt-4 mb-2">Hello!</p>
 
             <p>
-              My name is Zain and I specialize in web development that utilizes{" "}
+              My name is Abdul Manan and I specialize in web development that utilizes{" "}
               <span className="text-[#12F7D6] font-bold">HTML</span>,{" "}
               <span className="text-[#12F7D6] font-bold">CSS</span>,{" "}
               <span className="text-[#12F7D6] font-bold">JS</span>, and{" "}

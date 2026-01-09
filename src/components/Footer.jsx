@@ -3,20 +3,20 @@ import { FaInstagram, FaDiscord, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const socialIcons = [
-  { icon: <FaInstagram />, link: "#", label: "Instagram" },
+  { icon: <FaInstagram />, link: "https://www.instagram.com/imananansari", label: "Instagram" },
   { icon: <FaDiscord />, link: "#", label: "Discord" },
-  { icon: <FaGithub />, link: "#", label: "GitHub" },
+  { icon: <FaGithub />, link: "https://github.com/iabdulmanan10/", label: "GitHub" },
 ];
 
 const Footer = () => {
   return (
     <footer className="border-t border-[#43454D] bg-[#1A1E23] text-white py-6 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <p>© 2025 ZainArif. All rights reserved.</p>
+        <p>© 2025 abdul-manan. All rights reserved.</p>
 
         <div className="flex gap-4">
-          <a href="#" className="hover:text-white transition">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition">Terms & Conditions</a>
+          <a href="#" className="hover:text-[#12F7D6] transition">Privacy Policy</a>
+          <a href="#" className="hover:text-[#12F7D6] transition">Terms & Conditions</a>
         </div>
 
         <div className="flex gap-6">

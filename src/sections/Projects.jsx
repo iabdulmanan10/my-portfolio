@@ -94,7 +94,8 @@ export default function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub className="text-xl" />
+                
+                <FaGithub className="text-xl" />  
               </a>
             </div>
           </div>
