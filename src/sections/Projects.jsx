@@ -9,7 +9,8 @@ import project5Img from '/images/Portfolio.png';
 const projects = [
   {
     title: "Todo App",
-    description: "A simple and responsive TODO app built with plain HTML, CSS, and JavaScript, focusing on easy task management and clean user interface."    image: whitespaceImg,
+    description: "A simple and responsive TODO app built with plain HTML, CSS, and JavaScript, focusing on easy task management and clean user interface.",
+    image: whitespaceImg,
     link: "https://todo-app-red-pi-41.vercel.app/",
     github: "https://github.com/iabdulmanan10/todo-app",
   },
