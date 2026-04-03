@@ -17,7 +17,7 @@ const projects = [
   {
     title: "E-Commerce Store",
     description: "A simple and responsive e-commerce store built with HTML and CSS, featuring product listings, clean design, and easy navigation.",
-    image: bootstrapImg,
+    image: eCommerceImg,
     link: "https://e-commerce-store-mu-rosy.vercel.app/",
     github: "https://github.com/iabdulmanan10/e-commerce-store",
   },
