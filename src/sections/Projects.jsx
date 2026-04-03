@@ -1,9 +1,9 @@
 import { FaGithub } from "react-icons/fa";
 import whitespaceImg from '/images/Whitespace.png';
-import weatherImg from '/images/Weather.png';
-import Netflix from '/images/netflix.png';
-import project4Img from '/images/Nexcent.png';
-import project5Img from '/images/Portfolio.png';
+import eCommerceImg from '/images/e-commerce.png';
+import bootstrapImg from '/images/hero.jpg';
+// import project4Img from '/images/Nexcent.png';
+// import project5Img from '/images/Portfolio.png';
 // import project6Img from '/images/project6.png'; // Replace with actual image path
 
 const projects = [
@@ -15,40 +15,40 @@ const projects = [
     github: "https://github.com/iabdulmanan10/todo-app",
   },
   {
-    title: "Weather App",
-    description: "A responsive weather app built with React and Tailwind CSS that fetches real-time weather data, showcasing API integration and modern UI design skills.",
-    image: weatherImg,
-    link: "https://weather-app-mu-wine.vercel.app/",
-    github: "https://github.com/Zain-Arif2/Weather-App",
+    title: "E-Commerce Store",
+    description: "A simple and responsive e-commerce store built with HTML and CSS, featuring product listings, clean design, and easy navigation.",
+    image: bootstrapImg,
+    link: "https://e-commerce-store-mu-rosy.vercel.app/",
+    github: "https://github.com/iabdulmanan10/e-commerce-store",
   },
   {
-    title: "Netflix login Clone",
-    description: "A Netflix login page clone built with React and plain CSS, showcasing responsive layout and custom UI replication for portfolio use.",
-    image: Netflix,
-    link: "https://netflix-login-clone-hcgfsvkz8-zain-arifs-projects.vercel.app/",
-    github: "https://github.com/Zain-Arif2/Netflix-Login-Clone",
+    title: "Bootstrap Template",
+    description: "A responsive and modern website template built with Bootstrap, featuring a clean layout, mobile-first design, and ready-to-use components.",
+    image: bootstrapImg,
+    link: "https://bootstrap-project-iota-five.vercel.app/",
+    github: "https://github.com/iabdulmanan10/bootstrap-project",
   },
-  {
-    title: "Agency Website",
-    description: "A fast, responsive agency website built with Vite, React, and Tailwind CSS to showcase services, clients, and impactful solutions.",
-    image: project4Img,
-    link: "https://agency-website-q8c3c4fw8-zain-arifs-projects.vercel.app/",
-    github: "https://github.com/Zain-Arif2/Agency-Website",
-  },
-  {
-    title: "Portfolio Website",
-    description: "A clean and responsive portfolio website built with React and plain CSS to highlight projects, skills, and personal achievements.",
-    image: project5Img,
-    link: "https://portfolio-website-gray-theta.vercel.app/",
-    github: "https://github.com/Zain-Arif2/Portfolio-Website",
-  },
-  {
-    title: "Project 6",
-    description: "Description of Project 6.",
-    // image: project6Img,
-    link: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Agency Website",
+  //   description: "A fast, responsive agency website built with Vite, React, and Tailwind CSS to showcase services, clients, and impactful solutions.",
+  //   image: project4Img,
+  //   link: "https://agency-website-q8c3c4fw8-zain-arifs-projects.vercel.app/",
+  //   github: "https://github.com/Zain-Arif2/Agency-Website",
+  // },
+  // {
+  //   title: "Portfolio Website",
+  //   description: "A clean and responsive portfolio website built with React and plain CSS to highlight projects, skills, and personal achievements.",
+  //   image: project5Img,
+  //   link: "https://portfolio-website-gray-theta.vercel.app/",
+  //   github: "https://github.com/Zain-Arif2/Portfolio-Website",
+  // },
+  // {
+  //   title: "Project 6",
+  //   description: "Description of Project 6.",
+  //   // image: project6Img,
+  //   link: "#",
+  //   github: "#",
+  // },
 ];
 
 export default function Projects() {
